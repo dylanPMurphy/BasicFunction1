@@ -1,9 +1,9 @@
-//Predicted output: 8
-
-function a(){
-    return 4;
+//predicted output:6
+function a(b){
+    return b;
 }
-console.log(a()+a());
+console.log(a(2)+a(4));
+
 
 /*
 //Predicted Output 1: 35;
@@ -12,7 +12,7 @@ function a(){
 }
 console.log(a())
 
-
+//Predicted output: 8
 function a(){
     return 4;
 }
