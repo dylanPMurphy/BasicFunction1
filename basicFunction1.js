@@ -1,3 +1,8 @@
+//Predicted Output: 35;
+function a(){
+    return 35;
+}
+console.log(a())
 
 
 /*
