@@ -1,11 +1,12 @@
-//Predicted Output: 35;
-function a(){
-    return 35;
-}
-console.log(a())
+//Predicted output: 8
 
+function a(){
+    return 4;
+}
+console.log(a()+a());
 
 /*
+//Predicted Output 1: 35;
 function a(){
     return 35;
 }
