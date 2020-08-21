@@ -1,10 +1,10 @@
-
-//predicted output: 3 9
+//Predicted output: 40
 function a(b){
+    return b*4;
     console.log(b);
-    return b*3;
 }
-console.log(a(3));
+console.log(a(10));
+
 
 /*
 //Predicted Output 1: 35;
@@ -25,7 +25,7 @@ function a(b){
 }
 console.log(a(2)+a(4));
 
-
+//predicted output: 3 9
 function a(b){
     console.log(b);
     return b*3;
