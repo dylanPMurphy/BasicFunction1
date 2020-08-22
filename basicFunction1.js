@@ -1,12 +1,13 @@
-
-//Predicted Output: 2 5 8 11
-function a(){
-    for(var i=0; i<10; i++){
-        i = i +2;
+//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
+function a(b,c){
+    for(var i=b; i<c; i++) {
         console.log(i);
     }
+return b*c;
 }
-a();
+a(0,10);
+console.log(a(0,10));
+
 
 /*
 //Predicted Output 1: 35;
@@ -70,7 +71,7 @@ function a(b){
 console.log(3);
 console.log(4);
 
-
+//Predicted Output: 2 5 8 11
 function a(){
     for(var i=0; i<10; i++){
         i = i +2;
