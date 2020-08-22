@@ -1,9 +1,13 @@
-//Predicted output: 30 30
-function a(b,c){
-    return b*c;
+
+//Predicted Output: 3 4
+function a(b){
+    for(var i=0; i<10; i++){
+        console.log(i);
+    }
+    return i;
 }
-console.log(10,3);
-console.log( a(3,10) );
+console.log(3);
+console.log(4);
 
 
 
@@ -52,7 +56,12 @@ function a(b){
 }
 console.log(a(15));
 
-
+//Predicted output: 30 30
+function a(b,c){
+    return b*c;
+}
+console.log(10,3);
+console.log( a(3,10) );
 
 
 function a(b){
