@@ -1,12 +1,13 @@
-//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
-function a(b,c){
-    for(var i=b; i<c; i++) {
+//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 2 3 4 5 6 7 8 9 4 0 1 2 3 4 5 6 7 8 9  5 0 1 2 3 4 5 6 7 8 9  6 0 1 2 3 4 5 6 7 8 9  7 0 1 2 3 4 5 6 7 8 9 8 0 1 2 3 4 5 6 7 8 9 9
+
+function a(){
+    for(var i=0; i<10; i++){
+        for(var j=0; j<10; j++){
+            console.log(j);
+        }
         console.log(i);
     }
-return b*c;
 }
-a(0,10);
-console.log(a(0,10));
 
 
 /*
@@ -80,7 +81,7 @@ function a(){
 }
 a();
 
-
+//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0
 function a(b,c){
     for(var i=b; i<c; i++) {
         console.log(i);
