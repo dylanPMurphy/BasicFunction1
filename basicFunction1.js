@@ -1,13 +1,40 @@
-//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 2 3 4 5 6 7 8 9 4 0 1 2 3 4 5 6 7 8 9  5 0 1 2 3 4 5 6 7 8 9  6 0 1 2 3 4 5 6 7 8 9  7 0 1 2 3 4 5 6 7 8 9 8 0 1 2 3 4 5 6 7 8 9 9
-
+//Predicted output: 0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 9 0 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 9 1 2 0 2 1 ...1 8 2 9 9 2... 9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 9
 function a(){
     for(var i=0; i<10; i++){
         for(var j=0; j<10; j++){
-            console.log(j);
+            console.log(i,j);
         }
-        console.log(i);
+        console.log(j,i);
     }
 }
+
+
+//Predicted ouput: 10
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+console.log(z);
+
+//predicrted output:15 10
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+}
+a();
+console.log(z);
+
+//predicted output:15 15
+var z = 10;
+function a(){
+    var z = 15;
+    console.log(z);
+    return z;
+}
+z = a();
+console.log(z);
 
 
 /*
@@ -91,7 +118,7 @@ return b*c;
 a(0,10);
 console.log(a(0,10));
 
-
+//Predicted output: 0 1 2 3 4 5 6 7 8 9 0 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 2 3 4 5 6 7 8 9 4 0 1 2 3 4 5 6 7 8 9  5 0 1 2 3 4 5 6 7 8 9  6 0 1 2 3 4 5 6 7 8 9  7 0 1 2 3 4 5 6 7 8 9 8 0 1 2 3 4 5 6 7 8 9 9
 function a(){
     for(var i=0; i<10; i++){
         for(var j=0; j<10; j++){
