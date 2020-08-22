@@ -1,15 +1,12 @@
 
-//Predicted Output: 3 4
-function a(b){
+//Predicted Output: 2 5 8 11
+function a(){
     for(var i=0; i<10; i++){
+        i = i +2;
         console.log(i);
     }
-    return i;
 }
-console.log(3);
-console.log(4);
-
-
+a();
 
 /*
 //Predicted Output 1: 35;
@@ -63,7 +60,7 @@ function a(b,c){
 console.log(10,3);
 console.log( a(3,10) );
 
-
+//Predicted Output: 3 4
 function a(b){
     for(var i=0; i<10; i++){
         console.log(i);
