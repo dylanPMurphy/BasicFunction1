@@ -1,43 +1,6 @@
-//Predicted output: 0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 9 0 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 9 1 2 0 2 1 ...1 8 2 9 9 2... 9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 9
-function a(){
-    for(var i=0; i<10; i++){
-        for(var j=0; j<10; j++){
-            console.log(i,j);
-        }
-        console.log(j,i);
-    }
-}
 
 
-//Predicted ouput: 10
-var z = 10;
-function a(){
-    var z = 15;
-    console.log(z);
-}
-console.log(z);
 
-//predicrted output:15 10
-var z = 10;
-function a(){
-    var z = 15;
-    console.log(z);
-}
-a();
-console.log(z);
-
-//predicted output:15 15
-var z = 10;
-function a(){
-    var z = 15;
-    console.log(z);
-    return z;
-}
-z = a();
-console.log(z);
-
-
-/*
 //Predicted Output 1: 35;
 function a(){
     return 35;
@@ -128,6 +91,7 @@ function a(){
     }
 }
 
+//Predicted output: 0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 9 0 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 9 1 2 0 2 1 ...1 8 2 9 9 2... 9 0 9 1 9 2 9 3 9 4 9 5 9 6 9 7 9 8 9 9 9 9
 function a(){
     for(var i=0; i<10; i++){
         for(var j=0; j<10; j++){
@@ -138,7 +102,7 @@ function a(){
 }
 
 
-
+//Predicted ouput: 10
 var z = 10;
 function a(){
     var z = 15;
@@ -146,7 +110,7 @@ function a(){
 }
 console.log(z);
 
-
+//predicrted output:15 10
 var z = 10;
 function a(){
     var z = 15;
@@ -155,6 +119,7 @@ function a(){
 a();
 console.log(z);
 
+//predicted output:15 15
 var z = 10;
 function a(){
     var z = 15;
@@ -163,5 +128,40 @@ function a(){
 }
 z = a();
 console.log(z);
+
+
+
+/*
+ACTUAL OUPUT
+
+15
+15
+15
+15
+30
+15
+15
+30
+15
+15
+15
+15
+15
+15
+10 3
+15
+15
+3
+4
+15
+15
+15
+15
+10
+15
+10
+15
+15
+
 
 */
