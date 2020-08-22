@@ -1,15 +1,11 @@
-
-//Predicted Output: 4
-function a(b){
-    if(b<10) {
-        return 2;
-    }
-    else     {
-        return 4;
-    }
-    console.log(b);
+//Predicted output: 30 30
+function a(b,c){
+    return b*c;
 }
-console.log(a(15));
+console.log(10,3);
+console.log( a(3,10) );
+
+
 
 /*
 //Predicted Output 1: 35;
@@ -44,7 +40,7 @@ function a(b){
 }
 console.log(a(10));
 
-
+//Predicted Output: 4
 function a(b){
     if(b<10) {
         return 2;
@@ -57,11 +53,6 @@ function a(b){
 console.log(a(15));
 
 
-function a(b,c){
-    return b*c;
-}
-console.log(10,3);
-console.log( a(3,10) );
 
 
 function a(b){
